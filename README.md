@@ -2,7 +2,7 @@
 
 1.Atsisiuskite KALKULIATORIUS.py faila
 
-2.Atinadytike
+2.Atidarykite 
 
 3.Galėsite naudotis programėle ir atlikti veiksmus
 
