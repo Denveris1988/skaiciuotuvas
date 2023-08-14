@@ -1,5 +1,7 @@
 # Kalkuliatorius  -> SUDĖTIS / ATIMTIS / DAUGYBA / DALYBA 
 
+Reikia turėti pycharm programa
+
 1.Atsisiuskite KALKULIATORIUS.py faila
 
 2.Atidarykite 
