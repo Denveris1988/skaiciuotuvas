@@ -2,4 +2,4 @@
 
 Atsisiunti pasileidi ir naudoji 
 
-Kontaktai: akilpys@gmail.com
+Kontaktai: Aurimas Kilpys  akilpys@gmail.com
