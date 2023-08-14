@@ -13,7 +13,7 @@ def lygybe():
         global langelis
         total = str(eval(langelis))
         lygtis.set(total)
-        langelis = ""
+        langelis = "" 
     except:
         lygtis.set("Klaidingas veiksmas")
         langelis = ""
@@ -27,9 +27,12 @@ if __name__ == "__main__":
     langas = Tk()
     langas.title("Kalkuliatorius")
     lygtis = StringVar()
+   
+    # IVEDIMO LANGAS
     e_langelis = Entry(langas, textvariable=lygtis, font=("Ariel", 27))
     e_langelis.grid(columnspan=4)
 
+    # MYGTUKAI
     mygt_1 = Button(langas, text="1", fg="black", bg="lightblue", command= lambda: press(1), height=3, width=5, font=("Ariel", 20))
     mygt_1.grid(row=4, column=0)
     mygt_2 = Button(langas, text="2", fg="black", bg="lightblue", command= lambda: press(2), height=3, width=5, font=("Ariel", 20))
