@@ -1,2 +1,1 @@
-# skaiciuotuvas
-skaiciuotuvas
+# Kalkuliatorius  -> SUDĖTIS / ATIMTIS / DAUGYBA / DALYBA 
