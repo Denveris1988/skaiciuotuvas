@@ -57,16 +57,19 @@ if __name__ == "__main__":
     mygt_C.grid(row=5, column=1)
     mygt_lygu = Button(langas, text="=", fg="black", bg="grey", command= lambda: lygybe(), height=3, width=8, font=("Ariel", 20))
     mygt_lygu.grid(row=6, column=3)
-    mygt_plus = Button(langas, text="+", fg="black", bg="grey", command= lambda: press("+"), height=3, width=8, font=("Ariel", 20))
-    mygt_plus.grid(row=2, column=3)
+    mygt_plius = Button(langas, text="+", fg="black", bg="grey", command= lambda: press("+"), height=3, width=8, font=("Ariel", 20))
+    mygt_plius.grid(row=2, column=3)
     mygt_minus = Button(langas, text="-", fg="black", bg="grey", command= lambda: press("-"), height=3, width=8, font=("Ariel", 20))
     mygt_minus.grid(row=3, column=3)
-    mygt_daug = Button(langas, text="*", fg="black", bg="grey", command= lambda: press("*"), height=3, width=8, font=("Ariel", 20))
-    mygt_daug.grid(row=4, column=3)
-    mygt_dal = Button(langas, text="/", fg="black", bg="grey", command= lambda: press("/"), height=3, width=8, font=("Ariel", 20))
-    mygt_dal.grid(row=5, column=3)
-    mygt_task = Button(langas, text=".", fg="black", bg="lightblue", command= lambda: press("."), height=3, width=5, font=("Ariel", 20))
-    mygt_task.grid(row=5, column=2)
+    mygt_daugyba = Button(langas, text="*", fg="black", bg="grey", command= lambda: press("*"), height=3, width=8, font=("Ariel", 20))
+    mygt_daugyba.grid(row=4, column=3)
+    mygt_dalyba = Button(langas, text="/", fg="black", bg="grey", command= lambda: press("/"), height=3, width=8, font=("Ariel", 20))
+    mygt_dalyba.grid(row=5, column=3)
+    mygt_taskas = Button(langas, text=".", fg="black", bg="lightblue", command= lambda: press("."), height=3, width=5, font=("Ariel", 20))
+    mygt_taskas.grid(row=5, column=2)
+
+    langas.mainloop()
+
 
     langas.mainloop()
 
